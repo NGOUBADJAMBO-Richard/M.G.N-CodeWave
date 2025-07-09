@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300');
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,600");
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #333;
   font-size: 14px;
   font-weight: 300;
@@ -34,7 +34,7 @@ a {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   display: inline-block;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .btn:focus {
   box-shadow: none;
@@ -83,7 +83,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 40px;
   font-weight: 100;
   letter-spacing: 1px;
@@ -139,6 +139,11 @@ a:not([href]):not([tabindex]):hover {
   border-top: 2px solid #346afe;
   margin-top: 15px;
 }
+.logo-image {
+  width: 40px; /* Or any other desired width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto;
+}
 .section-header .lines:before {
   position: absolute;
   content: "";
@@ -162,7 +167,7 @@ a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 .menu-bg {
-  background-color: #fff!important;
+  background-color: #fff !important;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   z-index: 999;
   padding: 3px;
@@ -220,7 +225,7 @@ a:not([href]):not([tabindex]):hover {
   margin: 10px;
 }
 .navbar-light .navbar-toggler i {
-  color: #333!important;
+  color: #333 !important;
 }
 /* ==========================================================================
    Hero Area Style
@@ -597,7 +602,7 @@ a:not([href]):not([tabindex]):hover {
   left: 0px;
   bottom: 15px;
   right: 30px;
-  content: '';
+  content: "";
   position: absolute;
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
@@ -728,7 +733,7 @@ a:not([href]):not([tabindex]):hover {
   margin: 0 auto;
   margin-bottom: 30px;
   border: transparent;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -883,7 +888,7 @@ a:not([href]):not([tabindex]):hover {
 #blog .blog-item-img:before {
   width: 50%;
   height: 50%;
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -944,7 +949,7 @@ a:not([href]):not([tabindex]):hover {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .form-control:focus {
   box-shadow: none;
@@ -1006,7 +1011,7 @@ a:not([href]):not([tabindex]):hover {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   cursor: pointer;
 }
 /* ==========================================================================
@@ -1134,7 +1139,7 @@ footer {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   cursor: pointer;
 }
 .back-to-top {
