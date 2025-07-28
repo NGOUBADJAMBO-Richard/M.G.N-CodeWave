@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="keywords"
+      content="Bootstrap, Landing page, Template, Registration, Landing"
+    />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="author" content="Grayrids" />
+
+    <meta
+      name="description"
+      content="M.G.N CodeWave : Votre partenaire pour le succès digital. Transformez vos idées en solutions web et mobiles performantes."
+    />
+    <meta
+      name="keywords"
+      content="web development, mobile apps, digital solutions, SEO, UI/UX design"
+    />
+
+    <link href="img/codewave-4.png" rel="icon" />
+    <link href="img/codewave-4.png" rel="apple-touch-icon" />
+
+    <title>Demander un Devis - Code Fusion</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/line-icons.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.css" />
+    <link rel="stylesheet" href="css/nivo-lightbox.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/menu_sideslide.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+      .container {
+        max-width: 800px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #e44d26; /* Couleur principale de Code Fusion */
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 2.5em;
+      }
+      h2 {
+        color: #555;
+        font-size: 1.8em;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 10px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+      .form-group {
+        margin-bottom: 20px;
+      }
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        color: #333;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box; /* Pour inclure le padding dans la largeur */
+        font-size: 1em;
+      }
+      textarea {
+        resize: vertical; /* Permet de redimensionner verticalement */
+        min-height: 120px;
+      }
+      .btn-submit {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        background-color: #e44d26;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .btn-submit:hover {
+        background-color: #c0392b;
+      }
+      .contact-info {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+        text-align: center;
+      }
+      .contact-info p {
+        margin-bottom: 10px;
+      }
+      .contact-info a {
+        color: #e44d26;
+        text-decoration: none;
+      }
+      .contact-info a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Demandez un Devis</h1>
+      <p>
+        Pour obtenir une estimation personnalisée de votre projet, veuillez
+        remplir le formulaire ci-dessous. Nous vous contacterons dans les plus
+        brefs délais pour discuter de vos besoins.
+      </p>
+
+      <form action="#" method="POST">
+        <h2>Vos Coordonnées</h2>
+        <div class="form-group">
+          <label for="full-name"
+            >Nom Complet <span style="color: blue">*</span></label
+          >
+          <input
+            type="text"
+            id="full-name"
+            name="full_name"
+            required
+            placeholder="Votre nom et prénom"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email"
+            >Adresse E-mail <span style="color: blue">*</span></label
+          >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="votre.email@exemple.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="phone">Numéro de Téléphone</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="+241 07 XX XX XX"
+          />
+        </div>
+        <div class="form-group">
+          <label for="company">Nom de l'Entreprise (facultatif)</label>
+          <input
+            type="text"
+            id="company"
+            name="company"
+            placeholder="Nom de votre entreprise"
+          />
+        </div>
+
+        <h2>Détails de Votre Projet</h2>
+        <div class="form-group">
+          <label for="project-type"
+            >Type de Projet <span style="color: blue">*</span></label
+          >
+          <select id="project-type" name="project_type" required>
+            <option value="">Sélectionnez un type de projet</option>
+            <option value="site-vitrine">Site Web Vitrine</option>
+            <option value="e-commerce">Site E-commerce</option>
+            <option value="blog-portfolio">Blog / Portfolio</option>
+            <option value="refonte-site">Refonte de Site Existant</option>
+            <option value="fonctionnalite-additionnelle">
+              Ajout de Fonctionnalité
+            </option>
+            <option value="autre">Autre (précisez ci-dessous)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="project-description"
+            >Description Détaillée du Projet
+            <span style="color: blue">*</span></label
+          >
+          <textarea
+            id="project-description"
+            name="project_description"
+            rows="6"
+            required
+            placeholder="Décrivez votre projet, vos besoins, vos objectifs, les fonctionnalités souhaitées, etc."
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <label for="estimated-budget">Budget Estimé</label>
+          <select id="estimated-budget" name="estimated_budget">
+            <option value="">Sélectionnez une fourchette de budget</option>
+            <option value="moins-100k">Moins de 100 000 XAF</option>
+            <option value="100k-300k">100 000 XAF - 300 000 XAF</option>
+            <option value="300k-500k">300 000 XAF - 500 000 XAF</option>
+            <option value="plus-500k">Plus de 500 000 XAF</option>
+            <option value="a-discuter">À discuter</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="timeline">Délai Souhaité</label>
+          <select id="timeline" name="timeline">
+            <option value="">Sélectionnez un délai</option>
+            <option value="1-3-months">1 à 3 mois</option>
+            <option value="3-6-months">3 à 6 mois</option>
+            <option value="plus-6-months">Plus de 6 mois</option>
+            <option value="urgent">Urgent</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn-submit">
+          Envoyer Ma Demande de Devis
+        </button>
+      </form>
+
+      <div class="contact-info">
+        <h2>Vous préférez nous contacter directement ?</h2>
+        <p>Nous sommes à votre disposition pour discuter de votre projet :</p>
+        <p>
+          Email :
+          <a href="mailto:[VotreEmail@domaine.com]">[VotreEmail@domaine.com]</a>
+        </p>
+        <p>
+          Téléphone :
+          <a href="tel:[Votre numéro de téléphone]"
+            >[Votre numéro de téléphone]</a
+          >
+        </p>
+        <p>
+          WhatsApp :
+          <a
+            href="https://wa.me/[Votre numéro WhatsApp sans +]"
+            target="_blank"
+            rel="noopener"
+            >[Votre numéro WhatsApp]</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
